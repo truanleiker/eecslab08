@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Exercise 1</title>
+        <script type="text/javascript" src="exercise1.js"></script>
+    </head>
+    <body>
+        <form id="mainForm" action="/url" method="GET">
+            <p>Please enter a password:</p>
+            <input type="password" id="initPassword" minlength="8" required>
+            <p>Please re-enter your password:</p>
+            <input type="password" id="confirmPassword" minlength="8" required>
+            <button type="submit" onclick="validatePassword()">Validate</button>
+        </form>
+    </body>
+</html>
